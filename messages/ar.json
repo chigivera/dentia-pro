@@ -1,0 +1,25 @@
+{
+  "common": {
+    "dashboard": "لوحة التحكم",
+    "patients": "المرضى",
+    "appointments": "المواعيد",
+    "billing": "الفواتير",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج"
+  },
+  "dashboard": {
+    "patientOverview": "نظرة عامة على المريض",
+    "treatmentPlans": "خطط العلاج",
+    "billingSummary": "ملخص الفواتير",
+    "activePrescriptions": "الوصفات الطبية النشطة",
+    "quickActions": "إجراءات سريعة"
+  },
+  "patient": {
+    "details": "تفاصيل المريض",
+    "appointments": "المواعيد",
+    "treatmentPlans": "خطط العلاج",
+    "medicalRecords": "السجلات الطبية",
+    "financialManagement": "الإدارة المالية"
+  }
+}
+

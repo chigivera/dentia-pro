@@ -1,0 +1,156 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "123-456-7890",
+      "dateOfBirth": "1990-01-01",
+      "address": "123 Main St, Anytown, USA"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "date": "2023-12-01",
+      "time": "10:00",
+      "doctorId": 1,
+      "type": "Check-up",
+      "status": "Scheduled"
+    }
+  ],
+  "treatmentPlans": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "name": "Orthodontic Treatment",
+      "description": "Full braces treatment",
+      "startDate": "2023-12-01",
+      "endDate": "2024-12-01",
+      "status": "In Progress"
+    }
+  ],
+  "inventory": [
+    {
+      "id": 1,
+      "name": "Dental Floss",
+      "category": "Hygiene",
+      "quantity": 100,
+      "unit": "pieces",
+      "reorderLevel": 20,
+      "costPrice": 1.5,
+      "sellingPrice": 3.0,
+      "expiryDate": "2024-12-31"
+    }
+  ],
+  "inventoryCategories": [
+    {
+      "id": 1,
+      "name": "Hygiene",
+      "description": "Dental hygiene products"
+    }
+  ],
+  "purchaseOrders": [
+    {
+      "id": 1,
+      "vendorId": 1,
+      "date": "2023-11-15",
+      "status": "Pending",
+      "items": [
+        {
+          "inventoryId": 1,
+          "quantity": 50,
+          "unitPrice": 2.5
+        }
+      ],
+      "total": 125
+    }
+  ],
+  "vendors": [
+    {
+      "id": 1,
+      "name": "Dental Supplies Co.",
+      "email": "info@dentalsupplies.com",
+      "phone": "987-654-3210",
+      "address": "456 Supply St, Vendor City, USA",
+      "contactPerson": "Jane Smith",
+      "paymentTerms": "Net 30",
+      "rating": 4.5
+    }
+  ],
+  "clinics": [
+    {
+      "id": 1,
+      "name": "Main Street Dental",
+      "address": "123 Main St, Anytown, USA",
+      "phone": "555-123-4567",
+      "email": "info@mainstreetdental.com",
+      "subscriptionPlan": "Premium",
+      "subscriptionStatus": "Active",
+      "billingCycle": "Monthly",
+      "nextBillingDate": "2023-12-01"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "clinicId": 1,
+      "name": "Dr. John Doe",
+      "email": "john.doe@mainstreetdental.com",
+      "role": "Doctor",
+      "specialization": "General Dentistry"
+    },
+    {
+      "id": 2,
+      "clinicId": 1,
+      "name": "Jane Smith",
+      "email": "jane.smith@mainstreetdprocess.envental.com",
+      "role": "Secretary"
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "date": "2023-12-01",
+      "dueDate": "2023-12-15",
+      "items": [
+        {
+          "description": "Check-up",
+          "quantity": 1,
+          "unitPrice": 100
+        }
+      ],
+      "total": 100,
+      "status": "Unpaid"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "invoiceId": 1,
+      "date": "2023-12-10",
+      "amount": 100,
+      "method": "Credit Card"
+    }
+  ],
+  "quotations": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "date": "2023-11-20",
+      "expiryDate": "2023-12-20",
+      "items": [
+        {
+          "description": "Root Canal",
+          "quantity": 1,
+          "unitPrice": 500
+        }
+      ],
+      "total": 500,
+      "status": "Pending"
+    }
+  ]
+}
+

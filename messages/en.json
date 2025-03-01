@@ -1,0 +1,25 @@
+{
+  "common": {
+    "dashboard": "Dashboard",
+    "patients": "Patients",
+    "appointments": "Appointments",
+    "billing": "Billing",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "patientOverview": "Patient Overview",
+    "treatmentPlans": "Treatment Plans",
+    "billingSummary": "Billing Summary",
+    "activePrescriptions": "Active Prescriptions",
+    "quickActions": "Quick Actions"
+  },
+  "patient": {
+    "details": "Patient Details",
+    "appointments": "Appointments",
+    "treatmentPlans": "Treatment Plans",
+    "medicalRecords": "Medical Records",
+    "financialManagement": "Financial Management"
+  }
+}
+
